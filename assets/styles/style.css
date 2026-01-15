@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*FUNDO DA PÁGINA (você pode trocar quando quiser)*/
+.page-background {
+    min-height: 100vh;
+
+  /*EXEMPLOS DE FUNDO**/
+    background-color: #1a1a1a;
+    background-image: url("../img/fundo.gif"); 
+    background: linear-gradient(135deg, #c2fcff, #ffd3dc); 
+
+  padding: 20px 0;
+}
+
+/*CONTAINER CENTRAL*/
+.portal-container {
+  max-width: 1100px;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  padding: 15px;
+}
+
+/*TOPO*/
+.portal-header {
+  background: #222121;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+/*BOXES (estilo portal antigo)*/
+.box {
+  background: #ffccdb;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+/*DESTAQUE CENTRAL*/
+.destaque {
+  background: #ffccdb;
+  border: 2px solid #ff3f8f;
+  font-weight: bold;
+}
+
+/*RODAPÉ */
+.portal-footer {
+  text-align: center;
+  font-size: 12px;
+  color: #666;
+}

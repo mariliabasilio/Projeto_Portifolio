@@ -4,7 +4,7 @@ body {
 }
 
 /*FUNDO DA PÁGINA (você pode trocar quando quiser)*/
-.page-background {
+.pagina-fundo {
     min-height: 100vh;
 
   /*EXEMPLOS DE FUNDO**/
@@ -16,7 +16,7 @@ body {
 }
 
 /*CONTAINER CENTRAL*/
-.portal-container {
+.container {
   max-width: 1100px;
   background-color: #f5f5f5;
   border: 1px solid #ccc;
@@ -24,7 +24,7 @@ body {
 }
 
 /*TOPO*/
-.portal-header {
+.cabecalho {
   background: #222121;
   color: white;
   padding: 10px;
@@ -48,8 +48,24 @@ body {
 }
 
 /*RODAPÉ */
-.portal-footer {
+.rodape{
   text-align: center;
   font-size: 12px;
   color: #666;
+}
+
+.botoes{
+  background: #ffccdb;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  text-align: left;
+  width: 100%; /*ocupa toda a coluna*/
+}
+
+.botoes:hover{
+  background: #ff3f8f;
+  color: white;
+  cursor: pointer;
 }

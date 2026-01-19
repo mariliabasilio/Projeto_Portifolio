@@ -13,28 +13,16 @@
 
   <!-- FUNDO GLOBAL -->
     <div class="pagina-fundo">
-
         <!-- CONTAINER CENTRAL -->
         <div class="container">
 
-            <!-- TOPO -->
-            <header class="cabecalho mb-3">
-                <h1>Meu Portal</h1>
-                <p>Bem-vindo ao meu portifólio online. Aqui você encontrará uma coleção dos meus melhores trabalhos e projetos.</p>
-            </header>
-
-            <nav>
-                <a href="#">Home</a>
-                <a href="#">Sobre</a>
-                <a href="#">Contato</a>
-            </nav>
+            <div id="header"></div> <!-- Local onde o HEADER será carregado via JavaScript -->
+            <div id = "menu"></div> <!-- Local onde o MENU será carregado via JavaScript -->
 
             <!-- CONTEÚDO -->
             <div class="row">
-
                 <!-- COLUNA ESQUERDA -->
                 <aside class="col-md-3 flex-cloumn gap-2">
-                <button class="botoes">Menu</button>
                 <button class="botoes">Links</button>
                 <button class="botoes">Notícias</button>
                 <button class="botoes">Extras</button>
@@ -42,26 +30,20 @@
 
                 <!-- COLUNA CENTRAL -->
                 <main class="col-md-6">
-                <div class="box destaque">
-                    Conteúdo principal
-                </div>
+                    <div class="box destaque">Conteúdo principal</div>
 
-                <div class="card" style="width: 18rem; display: flex; align-items: center;">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <div class="card" style="width: 18rem; display: flex; align-items: center;">
+                            <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
                     </div>
-                </div>
                 </main>
-
             </div>
-
             <!-- RODAPÉ -->
-            <footer class="rodape mt-3">
-                © 2026 - Meu Portal
-            </footer>
+            <div id="footer"></div> <!-- Local onde o FOOTER será carregado via JavaScript -->
 
         </div>
     </div>

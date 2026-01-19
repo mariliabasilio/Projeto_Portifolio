@@ -8,6 +8,16 @@ function mudarFundo(corOuImagem) {
   }
 }
 
+async function carregarComponente(id, arquivo) {// Função assíncrona para carregar um componente HTML externo
+  const resposta = await fetch(arquivo);// Faz uma requisição para o arquivo HTML informado
+  const html = await resposta.text();// Converte o conteúdo da resposta para texto (HTML)
+  document.getElementById(id).innerHTML = html;// Insere o HTML carregado dentro do elemento com o ID informado
+}
+
+carregarComponente("header", "/assets/components/header.html");// Carrega o cabeçalho no elemento <div id="header">
+carregarComponente("footer", "/assets/components/footer.html"); // Carrega o menu de navegação
+carregarComponente("menu", "/assets/components/menu.html");// Carrega o rodapé
+
 /*
 Exemplos:
 mudarFundo("#222");

@@ -14,9 +14,8 @@ async function carregarComponente(id, arquivo) {// Função assíncrona para car
   document.getElementById(id).innerHTML = html;// Insere o HTML carregado dentro do elemento com o ID informado
 }
 
-carregarComponente("header", "/assets/components/header.html");// Carrega o cabeçalho no elemento <div id="header">
-carregarComponente("footer", "/assets/components/footer.html"); // Carrega o menu de navegação
-carregarComponente("menu", "/assets/components/menu.html");// Carrega o rodapé
+carregarComponente("footer", "/assets/components/footer.html"); // Carrega o rodape
+carregarComponente("info", "/assets/components/info.html");// Carrega o menu de informações
 
 /*
 Exemplos:

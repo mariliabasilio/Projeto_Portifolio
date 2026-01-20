@@ -14,7 +14,6 @@ body {
 .pagina-fundo {
   min-height: 100vh;
   /*EXEMPLOS DE FUNDO**/
-  background-color: #1a1a1a;
   background-image: url("../img/fundo.gif"); 
   background: #EBDEC0;
   padding: 20px 0;
@@ -34,7 +33,6 @@ body {
   font-size: 14px;
   text-align: left;
 }
-
 /*CONTAINER CENTRAL*/
 .container {
   max-width: 1500px;
@@ -53,6 +51,7 @@ body {
   text-align: center;
 }  
 
+
 /*DESTAQUE CENTRAL*/
 .destaque {
   background:#fcac83;
@@ -64,7 +63,10 @@ body {
 .rodape{
   text-align: center;
   font-size: 12px;
-  color: #666;
+  color: #839958;
+  background-color: #0A3323;
+  padding: 20px;
+  margin-top: 20px;
 }
 
 .botoes{
@@ -73,8 +75,9 @@ body {
   padding: 10px;
   margin-bottom: 10px;
   font-size: 14px;
-  text-align: left;
+  text-align: center;
   width: 100%; /*ocupa toda a coluna*/
+  border-radius: 5px;
 }
 
 .botoes:hover{
@@ -86,9 +89,11 @@ body {
 .cartao{
   background:  #105666;
   color:#f58699;
-  border: none
+  border: none;
   border-radius: 5px;
   box-shadow: 2px 2px 5px rgba(16, 86, 102, 0.1);
   margin: 10px;
-
+  padding: 15px;
+  transition: transform 0.2s;
+  
 }

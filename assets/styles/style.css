@@ -16,35 +16,39 @@ body {
 
 /*FUNDO DA PÁGINA (você pode trocar quando quiser)*/
 .pagina-fundo {
-    min-height: 100vh;
-
+  min-height: 100vh;
   /*EXEMPLOS DE FUNDO**/
-    background-color: #1a1a1a;
-    background-image: url("../img/fundo.gif"); 
-    background: #b3c8a7;
-
+  background-color: #1a1a1a;
+  background-image: url("../img/fundo.gif"); 
+  background: #76b5a0;
   padding: 20px 0;
+}
+/*TOPO*/
+.cabecalho {
+  background: #0f7d7e;
+  color: white;
+  padding: 30px;
+  text-align: left;
+}
+
+.info{
+  background: #ff7575;
+  padding: 20px;
+  font-size: 14px;
+  text-align: left;
 }
 
 /*CONTAINER CENTRAL*/
 .container {
   max-width: 1500px;
-  background-color: #ffebb9;
+  background-color: #fffdd1;
   border: 1px solid #da1a29;
   padding: 15px;
 }
 
-/*TOPO*/
-.cabecalho {
-  background: #473334;
-  color: white;
-  padding: 10px;
-  text-align: center;
-}
-
 /*BOXES (estilo portal antigo)*/
 .box {
-  background: #e3536c;
+  background: #ff7575;
   border: 1px solid #000000;
   padding: 10px;
   margin-bottom: 10px;
@@ -53,7 +57,7 @@ body {
 
 /*DESTAQUE CENTRAL*/
 .destaque {
-  background:#ff4567;
+  background:#f6a68d;
   border: 2px solid #ff3f3f;
   font-weight: bold;
 }
@@ -66,7 +70,7 @@ body {
 }
 
 .botoes{
-  background: #ff4567;
+  background: #ff7575;
   border: 1px solid #ccc;
   padding: 10px;
   margin-bottom: 10px;

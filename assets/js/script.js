@@ -15,7 +15,6 @@ async function carregarComponente(id, arquivo) {// Função assíncrona para car
 }
 
 carregarComponente("footer", "/assets/components/footer.html"); // Carrega o rodape
-carregarComponente("info", "/assets/components/info.html");// Carrega o menu de informações
 
 /*
 Exemplos:

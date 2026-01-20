@@ -20,19 +20,19 @@ body {
   /*EXEMPLOS DE FUNDO**/
   background-color: #1a1a1a;
   background-image: url("../img/fundo.gif"); 
-  background: #76b5a0;
+  background: #EBDEC0;
   padding: 20px 0;
 }
 /*TOPO*/
 .cabecalho {
-  background: #0f7d7e;
+  background: #768E78;
   color: white;
   padding: 30px;
   text-align: left;
 }
 
 .info{
-  background: #ff7575;
+  background: #C6C09C;
   padding: 20px;
   font-size: 14px;
   text-align: left;
@@ -41,8 +41,8 @@ body {
 /*CONTAINER CENTRAL*/
 .container {
   max-width: 1500px;
-  background-color: #fffdd1;
-  border: 1px solid #da1a29;
+  background-color: #FCC88A;
+  border: none;
   padding: 15px;
 }
 
@@ -53,12 +53,21 @@ body {
   padding: 10px;
   margin-bottom: 10px;
   font-size: 14px;
+  text-align: center;
+}
+.cartão {
+  background: #ff7575;
+  border: none;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  text-align: center;
 }
 
 /*DESTAQUE CENTRAL*/
 .destaque {
-  background:#f6a68d;
-  border: 2px solid #ff3f3f;
+  background:#fcac83;
+  border: none;
   font-weight: bold;
 }
 
@@ -71,7 +80,7 @@ body {
 
 .botoes{
   background: #ff7575;
-  border: 1px solid #ccc;
+  border: none;
   padding: 10px;
   margin-bottom: 10px;
   font-size: 14px;
